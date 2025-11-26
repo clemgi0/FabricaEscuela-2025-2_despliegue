@@ -26,7 +26,7 @@ import { LoadingSpinner } from "@/components/LoadingSpinner";
 const queryClient = new QueryClient();
 
 // Configuración de la URL de la API
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+const API_URL = import.meta.env.VITE_API_URL || 'https://fabricaescuela-backend.onrender.com';
 
 const App = () => {
     // 🔌 Verificar conexión con backend al iniciar

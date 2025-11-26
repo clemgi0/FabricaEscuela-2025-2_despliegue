@@ -44,7 +44,7 @@ public class OpenAPIConfig {
                                 .url("https://opensource.org/licenses/MIT")))
                 .servers(List.of(
                         new Server()
-                                .url("http://localhost:8080")
+                                .url("https://fabricaescuela-backend.onrender.com")
                                 .description("Servidor de Desarrollo Local"),
                         new Server()
                                 .url("https://api.fleetguard360.com")
