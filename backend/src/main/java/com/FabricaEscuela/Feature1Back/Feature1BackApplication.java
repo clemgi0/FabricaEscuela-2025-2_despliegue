@@ -32,7 +32,7 @@ public class Feature1BackApplication {
 			// ========================================
 			// 1️⃣ CREAR ADMIN
 			// ========================================
-			if (usuarioRepository.findByCorreo("clement.giraudon2@gmail.com").isEmpty()) {
+			if (usuarioRepository.findByCorreo("clement.@gmail.com").isEmpty()) {
 				Usuario admin = new Usuario();
 				admin.setCorreo("clement.giraudon2@gmail.com");
 				admin.setCedula("123456");
