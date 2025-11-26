@@ -3,7 +3,7 @@
 // Importar tipos desde otros servicios
 import type { AsignacionTurno } from './asignacionesService';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://fabricaescuela-backend.onrender.com';
 
 // ========================================
 // GESTIÓN DE AUTENTICACIÓN
