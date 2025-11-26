@@ -18,7 +18,10 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.setAllowCredentials(true);
-        config.setAllowedOriginPatterns(Arrays.asList("http://localhost:*"));
+        config.setAllowedOriginPatterns(Arrays.asList(
+                "http://localhost:*",
+                "https://frontend-clemgis-projects.vercel.app"
+        ));
         config.setAllowedHeaders(Arrays.asList("*"));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
         config.setExposedHeaders(Arrays.asList("Authorization"));
