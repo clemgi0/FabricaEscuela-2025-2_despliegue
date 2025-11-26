@@ -32,16 +32,16 @@ public class Feature1BackApplication {
 			// ========================================
 			// 1️⃣ CREAR ADMIN
 			// ========================================
-			if (usuarioRepository.findByCorreo("camiloike2@gmail.com").isEmpty()) {
+			if (usuarioRepository.findByCorreo("clement.giraudon2@gmail.com").isEmpty()) {
 				Usuario admin = new Usuario();
-				admin.setCorreo("camiloike2@gmail.com");
+				admin.setCorreo("clement.giraudon2@gmail.com");
 				admin.setCedula("123456");
 				admin.setPassword(passwordEncoder.encode("123456"));
 				admin.setRol(Rol.ADMIN);
 				usuarioRepository.save(admin);
 
 				System.out.println("✅ Usuario admin creado:");
-				System.out.println("  Correo: camiloike2@gmail.com");
+				System.out.println("  Correo: clement.giraudon2@gmail.com");
 				System.out.println("  Cédula: 123456");
 				System.out.println("  Contraseña: 123456");
 			}
